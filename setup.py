@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/nikeros1974/temp_user",
     install_requires=['temp_library',],
     dependency_links=[
-        'https://github.com/nikeros1974/temp_library/tarball/master',
+        'temp_library @ https://github.com/nikeros1974/temp_library/tarball/master',
     ],
     packages=setuptools.find_packages(),
     classifiers=[
