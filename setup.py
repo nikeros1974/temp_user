@@ -12,7 +12,7 @@ setuptools.setup(
     long_description="long description",
     long_description_content_type="text/markdown",
     url="https://github.com/nikeros1974/temp_user",
-    install_requires=['temp_library @ https://github.com/nikeros1974/temp_library@master',],
+    install_requires=['temp_library @ git+https://github.com/nikeros1974/temp_library',],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
