@@ -12,6 +12,7 @@ setuptools.setup(
     long_description="long description",
     long_description_content_type="text/markdown",
     url="https://github.com/nikeros1974/temp_user",
+    install_requires=['temp_library',],
     dependency_links=[
         'git+https://github.com/nikeros1974/temp_library#egg=temp_library'
     ],
