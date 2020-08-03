@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/nikeros1974/temp_user",
     install_requires=['temp_library',],
     dependency_links=[
-        'git+https://github.com/nikeros1974/temp_library#egg=temp_library'
+        'git+https://github.com/nikeros1974/temp_library.git#egg=temp_library'
     ],
     packages=setuptools.find_packages(),
     classifiers=[
