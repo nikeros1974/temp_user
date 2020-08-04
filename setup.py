@@ -12,7 +12,7 @@ setuptools.setup(
     long_description="long description",
     long_description_content_type="text/markdown",
     url="https://github.com/nikeros1974/temp_user",
-    install_requires=['temp_library @ git+https://github.com/nikeros1974/temp_library#egg=temp_library',],
+    install_requires=['temp_library @ git+https://github.com/nikeros1974/temp_library@v0.0.2#egg=temp_library',],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -21,3 +21,4 @@ setuptools.setup(
     ],
     python_requires='>=3.5',
 )
+
